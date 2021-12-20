@@ -1,0 +1,205 @@
+body {
+	border-left: 22px solid rgba(103, 103, 103, 0.9);
+	background-image: url("../images/jigsaw.jpg");
+	background-position: left;
+	font-family: cursive;
+}
+header {
+	position: sticky;
+	opacity: 0.9;
+	top: 0;
+	width: 1325px;
+	background-color: #676767;
+	margin: 0;
+	overflow: auto
+}
+.head1 {
+	background-color: #373737;
+	color: white;
+	text-align: center;
+	float: left;
+	width: 400px;
+	height: 70px;
+	margin: 4px 200px 4px 20px;
+	padding: 5px 2px;
+	line-height: 27px;
+}
+.head2 {
+	background-color: #373737;
+	color: white;
+	text-align: center;
+	width: 500px;
+	height: 70px;
+	margin: 4px 20px 4px 100px;
+	padding: 5px 2px;
+	float: right;
+	font-weight: bold;
+	line-height: 3px;
+}
+nav {
+	width: 1325px;
+	opacity: 0.8;
+	display: inline-block;
+	margin-bottom: -5px;
+	overflow: auto;
+	background-color: #b8b8b8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+	float: left;
+}
+a {
+	text-decoration: none;
+}
+#button {
+	box-shadow: 3px 10px 27px 12px rgba(0,0,0,0.44);
+	color: white;
+	background-color: #bfbfbf;
+	border: 1px solid black;
+	width: 152px;
+	height: 40px;
+	margin: 5px 56px;
+	padding: 4px;
+	text-align: center;
+}
+#button:hover {
+	background-color: #cfcfcf;
+	color: ;
+}
+#button:active {
+	background-color: white;
+	color: black
+}
+#button:visited{
+	background-color: #736757;
+	color: blue;
+}
+#logo {
+	float: left;
+	margin: -5px 0px -5px 15px;
+}
+#footerlogo {
+	float: right;
+	margin: 5px 15px;
+	clip-path: circle(50% at 50% 50%);
+}
+.info {
+	background-color: rgba(240,234,213,0.85);
+	display: inline-block;
+	margin: 0px;
+	width: 1325px;
+	overflow: auto;
+}
+.title-box {
+	width: 350px;
+	height: 75px;
+	margin: 10px auto;
+	padding: 5px 40px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+	line-height: 33px;
+}
+.title {
+	letter-spacing: 1px;
+}
+.content {
+	text-align: left;
+	width: 450px;
+	height: auto;
+	margin: 10px 100px 0px 410px;
+	padding: 5px 25px 0px 25px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+	line-height: 20px;
+	
+}
+.fact2 {
+	float: right;
+	width: 200px;
+	height: 640px;
+	margin: 10px 75px 0px 25px;
+	padding: 0px 30px;
+	border: 2px solid gray;
+	background-color: #c8c8c8;
+	text-align: center;
+}
+.fact {
+	float: left;
+	width: 200px;
+	height: 640px;
+	margin: 10px 25px 0px 75px;
+	padding: 0px 30px;
+	border: 2px solid gray;
+	background-color: #c8c8c8;
+	text-align: center;
+}
+.example {
+	width: 500px;
+	height: auto;
+	margin: 20px 500px 10px 390px;
+	padding: 0px 30px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+	text-align: center
+}
+#no1 {
+	clear: left;
+	margin: 30px 20px 65px 50px;
+	float: left;
+}
+#no2 {
+	margin: 30px 20px 25px 50px;
+	float: left;
+}
+#no3 {
+	margin: 30px 40px 0px 60px;
+}
+.example {
+	width: 500px;
+	height: auto;
+	margin: 20px 500px 50px 390px;
+	padding: 0px 30px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+	text-align: center
+}
+.vid1 {
+	margin-left: 10px;
+}
+.vid2 {
+	margin-left: 15px;
+}
+.ref {
+	box-shadow: 3px 10px 27px 12px rgba(0,0,0,0.44);
+	width: 755px;
+	height: auto;
+	margin: 20px 150px 60px 250px;
+	padding: 0px 30px 10px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+}
+footer {
+	position: sticky;
+	opacity: 0.9;
+	right: 0;
+	bottom: 0;
+	display: inline-block;
+	margin-top: -5px;
+	background-color: #b8b8b8;
+	width: 101%;
+	height: 40px;
+}
+.ref {
+	box-shadow: 3px 10px 27px 12px rgba(0,0,0,0.44);
+	width: 755px;
+	height: auto;
+	margin: 20px 150px 60px 250px;
+	padding: 0px 30px 10px;
+	border: 2px solid #fffefa;
+	background-color: #F0FAE5;
+}
