@@ -36,6 +36,30 @@ body {
 	font-weight: bold;
 	line-height: 3px;
 }
+.sprite {
+	float:right;
+	background: url('../images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	clip-path: circle(47% at 50% 50%);
+	margin-right: 5px;
+}
+}
+.sprite:hover {
+	background: url('../images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+.sprite:active {
+	background: url../images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+.sprite:visited {
+	background: url('../images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+}
 nav {
 	width: 1319px;
 	opacity: 0.8;
