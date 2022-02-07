@@ -45,7 +45,6 @@ body {
 	clip-path: circle(47% at 50% 50%);
 	margin-right: 5px;
 }
-}
 .sprite:hover {
 	background: url('../images/icon.png') no-repeat -182px -17px;
 	width: 33px;
